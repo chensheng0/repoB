@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/chensheng0/repoA"
+	"fmt"
+	"github.com/chensheng0/repoA/item"
 )
 
-func PackItem() {
-	repoA.
+func PackItem(i item.Item) {
+	fmt.Println(i)
+	fmt.Println("end")
 }
